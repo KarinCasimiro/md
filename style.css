@@ -5,7 +5,7 @@ body{
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    font-family: cursive;
+    font-family:monospace;
 }
 #about-me{
     background-color: hsla(0, 0%, 0%, 0.2);
@@ -15,4 +15,7 @@ body{
 }
 #contatti{
     background-color: hsla(0, 0%, 0%, 0.6);
+}
+.section{
+   padding: 16px;
 }
