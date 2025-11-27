@@ -191,42 +191,6 @@ No media query for `xs` since this is the default in Bootstrap */
     html {
         font-size: 24px;
     }
-     body {
-        background-size: 2500px;
-        background-position-x: -700px;
-        background-position-y: -400px;
-    
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        padding-right: 120px; 
-        padding-top:250px 
-
-    }
-    .città{  
-        font-size: 1rem !important;
-    }
-    hr{
-    width: 25%;
-    flex-direction: row;
-    margin: auto;
-  }
-
-.tittle{
-   font-size: 5rem;
-}
-.data{
-
-    font-size: 1.2rem;
-}
-.spettacolo{
-    font-size: 1.3rem;
-}
-.luogo {
-
-    font-size: 1rem;
-   
- }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
