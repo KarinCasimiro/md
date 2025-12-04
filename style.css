@@ -19,11 +19,22 @@ ul{
     }
 h1{
     text-align: center;
+    font-size: ;
     }
 .menu{
     display: flex;
     }
  .li{
     font-size: 1.5rem;
-    
     }
+
+a, a:link{
+    color: #e4e4e4;
+    } 
+
+a:hover{
+    color: #f6ff00;
+    } 
+a:visited{
+    color: #f6ff006d;
+    } 
