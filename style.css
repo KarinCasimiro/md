@@ -12,29 +12,38 @@ body{
 
 ul{
     
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    margin: 0.5vw;
+    padding: 1rem;
+    list-style-type: "▫️";
+    
     
     }
 h1{
     text-align: center;
-    font-size: ;
+    padding-bottom: 5vw;
     }
 .menu{
     display: flex;
     }
  .li{
     font-size: 1.5rem;
+    
     }
 
-a, a:link{
+/* link a risposo */
+    a, a:link{
     color: #e4e4e4;
+    text-decoration: none;
     } 
-
-a:hover{
-    color: #f6ff00;
-    } 
+/* link visitatori */
 a:visited{
+    color: #ffffff6d;
+    } 
+/* cursore su link o focus su link (tab) */    
+a:hover, a:focus{
+    color: #f6ff00d2;
+    } 
+/* link premuti */    
+a:active{
     color: #f6ff006d;
     } 
