@@ -47,7 +47,7 @@ body{
   top: 160px;
   right: 45px;
   width: 150vw;
-
+  z-index: -1;
 }
 
 .giradisco{
@@ -60,10 +60,14 @@ body{
 }
 
 .donna{
+ 
   position: absolute;
   width: 55vw;
-  transform: rotate(280deg);
-  left: 900px;
+  rotate: 260deg;
+  top: 260px;
+  left: 50px;
+  z-index: -1 ;
+
 }
 
 .donna2{
