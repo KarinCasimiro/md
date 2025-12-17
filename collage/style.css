@@ -46,17 +46,17 @@ body{
   position: absolute;
   top: 160px;
   right: 45px;
-  z-index: -1 ;
   width: 150vw;
- 
+
 }
+
 .giradisco{
   position: absolute;
   top: 160px;
   right: -3px;
   width: 110vw;
   height: 110vh;
-  z-index: -1 ;
+  
 }
 
 .donna{
@@ -64,7 +64,6 @@ body{
   width: 55vw;
   transform: rotate(280deg);
   left: 900px;
-  z-index: -1 ;
 }
 
 .donna2{
@@ -73,8 +72,6 @@ transform: rotate(204deg);
 width: 43vw;
 top: 110px;
 left: 45px;
-
-
 }
 
 
@@ -138,11 +135,11 @@ body{
   
   top: 115px;
   left: 125px;
-  z-index: -1 ;
+  z-index: -1;
   width: 75vw;
-  
  
 }
+
 .giradisco{
   position: absolute;
   top: 140px;
@@ -154,12 +151,13 @@ body{
 
 .donna{
   position: absolute;
-  width: 26vw;
-  transform: rotate(220deg);
-  top: 630px;
-  left: 330px;
+  width: 55vw;
+  rotate: 260deg;
+  top: 20px;
+  left: 50px;
   z-index: -1 ;
 }
+
 
 .donna2{
 position: absolute;
