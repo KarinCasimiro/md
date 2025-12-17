@@ -1,0 +1,174 @@
+
+
+@import url('use.typekit.net');
+html{ 
+    font-size: 16px; /* 16px = 1rem*/;
+    
+    
+}
+
+body{
+    background-image:url(images/sfondo.jpg);
+    background-size: 1000px;
+   background-position-x: center;
+}
+
+.collage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tittle{
+    color: #00f;
+    padding: 10px;
+    font-size: 7rem;
+    font-family: "pf-pixelscript", sans-serif;
+    text-align: center;
+    font-weight: 300;
+  
+}
+.time{
+  color: #00f;
+    font-size: 6rem;
+    font-family: "pf-pixelscript", sans-serif;
+    text-align: right;
+    font-weight: 200;
+    padding-top: 360px;
+    padding-right: 20px;
+    position: relative;
+    z-index: -1;
+  
+}
+
+.pool {
+  position: absolute;
+  top: 160px;
+  right: 45px;
+  z-index: -1 ;
+  width: 150vw;
+ 
+}
+.giradisco{
+  position: absolute;
+  top: 160px;
+  right: -3px;
+  width: 110vw;
+  height: 110vh;
+  z-index: -1 ;
+}
+
+.donna{
+  position: absolute;
+  width: 55vw;
+  transform: rotate(280deg);
+  left: 900px;
+  z-index: -1 ;
+}
+
+.donna2{
+position: absolute;
+transform: rotate(204deg);
+width: 43vw;
+top: 110px;
+left: 45px;
+
+
+}
+
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    html {
+        font-size: 24px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+body{
+    background-image:url(images/sfondo.jpg);
+    background-size: 2000px;
+   background-position-x: center;
+}
+
+.tittle{
+    color: #00f;
+    padding: 10px;
+    font-size: 7rem;
+    font-family: "pf-pixelscript", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 300;
+    position: relative;
+    z-index: -1;
+  
+}
+.time{
+  color: #00f;
+    font-size: 8rem;
+    font-family: "pf-pixelscript", sans-serif;
+    text-align: right;
+    font-weight: 200;
+    padding-top: 500px;
+    padding-right: 40px;
+    
+  
+}
+
+.pool {
+  
+  top: 115px;
+  left: 125px;
+  z-index: -1 ;
+  width: 75vw;
+  
+ 
+}
+.giradisco{
+  position: absolute;
+  top: 140px;
+  right: 125px;
+  width: 55vw;
+  height: 55vh;
+  z-index: -1 ;
+}
+
+.donna{
+  position: absolute;
+  width: 26vw;
+  transform: rotate(220deg);
+  top: 630px;
+  left: 330px;
+  z-index: -1 ;
+}
+
+.donna2{
+position: absolute;
+transform: rotate(80deg);
+width: 20vw;
+top: 410px;
+left: 130px;
+
+}
+
+}
+ 
