@@ -22,33 +22,104 @@ body{
 
 .tittle{
     color: #00f;
+    text-shadow:
+    0 0 4px #6fa8ff,
+    0 0 8px #6fa8ffb3,
+    0 0 16px #6fa8ff80,
+    0 0 32px #6fa8ff59,
+    0 0 50px #6fa8ff33;
     padding: 10px;
     font-size: 7rem;
     font-family: "pf-pixelscript", sans-serif;
     text-align: center;
     font-weight: 300;
-  
+    overflow: hidden;
+    transition:
+    color 2s ease-out,
+    text-shadow 1.5s ease-out;  
 }
+.tittle__inner {
+  display: inline-block;
+}
+
+.tittle:hover .tittle__inner {
+  animation: poolMove 3s ease-in-out infinite;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 6px  #1f4bff,
+    0 0 12px #1f4bffcc,
+    0 0 24px #1f4bffb3,
+    0 0 48px #1f4bff99,
+    0 0 80px #1f4bff80;
+}
+@keyframes poolMove {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(40px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .time{
   color: #00f;
-    font-size: 6rem;
-    font-family: "pf-pixelscript", sans-serif;
-    text-align: right;
-    font-weight: 200;
-    padding-top: 360px;
-    padding-right: 20px;
-    position: relative;
-    z-index: -1;
+  text-shadow:
+    0 0 4px #6fa8ff,
+    0 0 8px #6fa8ffb3,
+    0 0 16px #6fa8ff80,
+    0 0 32px #6fa8ff59,
+    0 0 50px #6fa8ff33;
+  font-size: 6rem;
+  font-family: "pf-pixelscript", sans-serif;
+  text-align: right;
+  font-weight: 200;
+  padding-top: 360px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden; 
+  transition:
+    color 2s ease-out,
+    text-shadow 1.5s ease-out;            
   
 }
 
-.pool {
+.time:hover {
+  animation: timeMotion 3s ease-in-out infinite;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 6px  #1f4bff,
+    0 0 12px #1f4bffcc,
+    0 0 24px #1f4bffb3,
+    0 0 48px #1f4bff99,
+    0 0 80px #1f4bff80;
+}
+@keyframes timeMotion {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(25px, 0); }
+  
+}
+
+
+
+.pool{
   position: absolute;
   top: 160px;
   right: 45px;
   width: 150vw;
   z-index: -1;
+  
 }
+
+
 
 .giradisco{
   position: absolute;
@@ -56,19 +127,27 @@ body{
   right: -3px;
   width: 110vw;
   height: 110vh;
-  
+  z-index: -1;
+  pointer-events: none;
 }
 
 .donna{
  
   position: absolute;
   width: 55vw;
-  rotate: 260deg;
   top: 260px;
   left: 50px;
   z-index: -1;
-
+  pointer-events: none;
+  -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 10s linear infinite;
 }
+
+@keyframes spin { 100% { 
+  -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
 
 .donna2{
 position: absolute;
@@ -76,6 +155,7 @@ transform: rotate(204deg);
 width: 43vw;
 top: 110px;
 left: 45px;
+pointer-events: none;
 }
 
 
@@ -141,6 +221,8 @@ body{
   left: 125px;
   z-index: -1;
   width: 75vw;
+  transition: transform 1s ease;
+  transform-origin: center center;
  
 }
 
@@ -150,7 +232,8 @@ body{
   right: 125px;
   width: 55vw;
   height: 55vh;
-  z-index: -1 ;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .donna{
@@ -160,6 +243,7 @@ body{
   top: 20px;
   left: 50px;
   z-index: -1;
+  pointer-events: none;
 }
 
 
@@ -169,7 +253,7 @@ transform: rotate(80deg);
 width: 20vw;
 top: 410px;
 left: 130px;
-
+pointer-events: none;
 }
 
 }
