@@ -2,11 +2,8 @@
 
 @import url('use.typekit.net');
 html{ 
-    font-size: 16px; /* 16px = 1rem*/;
-    
-    
+    font-size: 16px; /* 16px = 1rem*/; 
 }
-
 body{
     background-image:url(images/sfondo.jpg);
     background-size: 1000px;
@@ -68,6 +65,7 @@ body{
   }
 }
 
+
 .time{
   color: #00f;
   text-shadow:
@@ -80,7 +78,7 @@ body{
   font-family: "pf-pixelscript", sans-serif;
   text-align: right;
   font-weight: 200;
-  padding-top: 360px;
+  padding-top: 350px;
   padding-right: 20px;
   position: relative;
   overflow: hidden; 
@@ -105,7 +103,6 @@ body{
   50% { transform: translate(25px, 0); }
   
 }
-
 
 
 .pool{
