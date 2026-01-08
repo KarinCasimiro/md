@@ -34,9 +34,7 @@ body{
     text-align: center;
     font-weight: 300;
     overflow: hidden;
-    transition:
-    color 2s ease-out,
-    text-shadow 1.5s ease-out;  
+    transition: color 2s ease-out,text-shadow 1.5s ease-out;  
 }
 .tittle__inner {
   display: inline-block;
@@ -116,7 +114,15 @@ body{
   right: 45px;
   width: 150vw;
   z-index: -1;
+  pointer-events: none;
+  -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 10s linear infinite;
+    
   
+}
+@keyframes spin { 100% { 
+  -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
 }
 
 
@@ -141,7 +147,7 @@ body{
   pointer-events: none;
   -webkit-animation:spin 5s linear infinite;
     -moz-animation:spin 5s linear infinite;
-    animation:spin 10s linear infinite;
+    animation:spin 30s linear infinite;
 }
 
 @keyframes spin { 100% { 
@@ -153,7 +159,7 @@ body{
 position: absolute;
 transform: rotate(204deg);
 width: 43vw;
-top: 110px;
+top: 120px;
 left: 45px;
 pointer-events: none;
 }
@@ -238,10 +244,10 @@ body{
 
 .donna{
   position: absolute;
-  width: 55vw;
+  width: 25vw;
   rotate: 260deg;
-  top: 20px;
-  left: 50px;
+  top: 500px ; 
+  left: 300px;
   z-index: -1;
   pointer-events: none;
 }
