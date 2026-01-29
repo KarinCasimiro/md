@@ -180,16 +180,9 @@ No media query for `xs` since this is the default in Bootstrap */
     html {
         font-size: 24px;
     }
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-body{
+    body{
     background-image:url(images/sfondo.jpg);
-    background-size: 2000px;
+    background-size: 500vh;
    background-position-x: center;
 }
 
@@ -203,61 +196,62 @@ body{
     padding-left: 40px;
     font-weight: 300;
     position: relative;
-    z-index: -1;
   
 }
 .time{
   color: #00f;
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: "pf-pixelscript", sans-serif;
     text-align: right;
     font-weight: 200;
-    padding-top: 500px;
-    padding-right: 40px;
+    padding-top: 45vh;
+    padding-right: 5vh;
     
   
 }
 
 .pool {
-  
-  top: 115px;
-  left: 125px;
-  z-index: -1;
-  width: 75vw;
-  transition: transform 1s ease;
-  transform-origin: center center;
- 
+    top: 65px;
+    left: 290px;
+    z-index: -1;
+    width: 55vw;
+    transition: transform 1s ease;
+    transform-origin: center center;
 }
 
 .giradisco{
   position: absolute;
-  top: 140px;
-  right: 125px;
-  width: 55vw;
-  height: 55vh;
+  top: 90px;
+  left: 650px;
+  width: 80vh;
   z-index: -1;
   pointer-events: none;
 }
 
-.donna{
+.donna {
   position: absolute;
-  width: 25vw;
+  width: 18vw;
   rotate: 260deg;
-  top: 500px ; 
-  left: 300px;
+  top: 500px;
+  left: 570px;
   z-index: -1;
   pointer-events: none;
 }
 
 
-.donna2{
-position: absolute;
-transform: rotate(80deg);
-width: 20vw;
-top: 410px;
-left: 130px;
-pointer-events: none;
+.donna2 {
+  position: absolute;
+  transform: rotate(60deg);
+  width: 20vw;
+  top: 410px;
+  left: 300px;
+  pointer-events: none;
+}
 }
 
-}
- 
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

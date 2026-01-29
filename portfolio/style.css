@@ -26,6 +26,8 @@ CLASSI DI SPACING
 3 rem = 48px 
 */
 
+
+
 .m-1 { margin: 0.25rem !important;}
 .m-2 { margin: 0.5rem !important;}
 .m-3 { margin: 1rem !important;}
@@ -132,23 +134,26 @@ CLASSI DI SPACING
 .pe-5 { padding-right: 2rem !important;}
 .pe-6 { padding-right: 3rem !important;}
 body{
-    color: rgb(11, 255, 48);
-    background-color: rgba(0, 13, 255, 0.675);
+    color: #0900FF;
+    background-color: #fff(0, 13, 255, 0.675);
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
     font-family:monospace;
+    font-family: "Instrument Sans", sans-serif;
 }
-#about-me{
-    background-color: hsla(0, 0%, 0%, 0.2);
+h3{
+    color: #FF0076;
 }
-#works{
-    background-color: hsla(0, 0%, 0%, 0.4);
+p{
+    color: #000000;
 }
-#contatti{
-    background-color: hsla(0, 0%, 0%, 0.6);
+h2{
+    text-decoration: underline;
 }
+
+
 .section{
    padding: 16px;
    padding: 16px;
@@ -157,6 +162,9 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   height: 40vw;
+   width: 40vw;
+
 
 }
 

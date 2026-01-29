@@ -5,35 +5,58 @@ html{
 body{
     
     padding: 1rem;
-    background-color: rgb(127, 38, 0);
-    color: rgb(235, 235, 235);
-    
+    background-color: #e1e0fd;    
     }
 
 ul{
     
     margin: 0.5vw;
     padding: 1rem;
-    list-style-type: "▫️";
+    list-style-type: "";
+    color: #aa0658;
     
-    
-    }
-h1{
-    text-align: center;
-    padding-bottom: 5vw;
-    }
-.menu{
-    display: flex;
-    }
- .li{
-    font-size: 1.5rem;
     
     }
 
+p {
+   
+  width: 90vw;
+  margin: 0 auto;
+  border-top: 3px solid #ef8f00;
+  font-size:3rem ;
+  padding-top: 1rem;
+  color: #ef8f00;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "new-astro", sans-serif;
+  background-color: #0038bc;
+  color: #ef8f00;
+  padding: 0;
+}
+
+h2{
+    font-size: 2rem;
+    padding-top: 20vh;
+    color: #0038bc;
+}
+
+
 /* link a risposo */
     a, a:link{
-    color: #e4e4e4;
+    color: #ef8f00;
     text-decoration: none;
+    ;
+
     } 
 /* link visitatori */
 a:visited{
@@ -41,9 +64,9 @@ a:visited{
     } 
 /* cursore su link o focus su link (tab) */    
 a:hover, a:focus{
-    color: #f6ff00d2;
+    color: #4000ffd2;
     } 
 /* link premuti */    
 a:active{
-    color: #f6ff006d;
+    color: #ff00006d;
     } 
