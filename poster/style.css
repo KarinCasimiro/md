@@ -172,6 +172,23 @@ hr{
     margin: auto;
   }
 
+li{
+height: 5%;
+width: 5%;
+display: flex;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 110vw;
+}
+
+.home img {
+    width: 10vw;   
+    height: auto;  
+}
+
 
 #ab
 
@@ -191,13 +208,6 @@ No media query for `xs` since this is the default in Bootstrap */
     html {
         font-size: 24px;
     }
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
 
      body {
         background-size: 2500px;
@@ -235,6 +245,19 @@ No media query for `xs` since this is the default in Bootstrap */
     font-size: 1rem;
    
  }
+ .home{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
 
 
  
