@@ -1,0 +1,141 @@
+html {
+    font-size: 16px; /* 16px = 1rem */
+}
+
+body {
+display: absolute;
+    justify-content: center;
+    align-items: center; 
+  background: #0d0d0d;
+}
+
+h1{
+font-family: "tumb", sans-serif;
+font-size: 3rem;
+color: #ff0000;
+text-align: center;
+padding-top:50vh;
+padding-bottom:60vh;
+padding-left: 1vw;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "clother", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 3rem;
+    padding-bottom: 30vh;
+}
+
+h2{
+ font-family: "tumb", sans-serif;
+font-size: 2rem;
+color: #f6bc34;
+text-align: center;
+padding: 4vh;
+}
+
+.paessaggio{
+padding-top: 10vh;
+padding-bottom: 4vh;
+}
+
+.split-char {
+  display: inline-block;
+}
+
+.contenitore {
+
+  display: grid;
+  place-items: center;
+  
+}
+.area-foto {
+  perspective: 1000px;
+}
+
+.card-3d {
+  width: 60vw;
+  height: 60vw;
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: grab;
+  margin: 2rem;
+  
+}
+
+.faccia {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 15px rgba(255, 255, 255, 0.9);
+}
+
+
+.fronte img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card-1 .retro {
+  background: #FBD391;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: "clother", sans-serif;
+color: #283E6B;
+
+}
+
+.card-2 .retro {
+  background: #B7AC21;
+  color: #362F27;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-3 .retro {
+  background: #FC995F;
+  color: #A32403;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-4 .retro {
+  background: #FC995F;
+  color: #A32403;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-5 .retro {
+  background: #234B95;
+  color: #FCBB3D;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-6 .retro {
+  background: #D91602;
+  color: #FFF;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}

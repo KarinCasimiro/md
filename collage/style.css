@@ -161,6 +161,17 @@ left: 45px;
 pointer-events: none;
 }
 
+.home{
+   position: absolute;
+  top: 20px;
+  filter:  invert(1);
+}
+
+.home img {
+    width: 10vw;   
+    height: auto;
+}
+
 
 
 
@@ -247,6 +258,18 @@ No media query for `xs` since this is the default in Bootstrap */
   left: 300px;
   pointer-events: none;
 }
+.home{
+  position: absolute;
+  bottom: 20px;
+  top: auto;
+  filter:  invert(1);
+}
+
+.home img {
+    width: 5vw;   
+    height: auto;
+}
+
 }
 
 
