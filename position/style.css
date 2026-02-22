@@ -3,7 +3,7 @@ html{
     font-size: 16px; /* 16px = 1rem*/
 }
 #pages{ 
-    width: 100vw;
+    width: 1000vw;
     height: 100dvh;
     background-color: #dae7fd;
     display: flex;
