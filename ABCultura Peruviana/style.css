@@ -17,7 +17,7 @@ margin: 40vh 0 25vh;
 }
 
 h1{
-  font-family: "tumb", sans-serif;
+font-family: "tumb", sans-serif;
 font-size: 3rem;
 color: #ff0000;
 text-align: center;
@@ -67,7 +67,8 @@ z-index: 9999;
 .home img {
     width: 10vw;   
     height: auto;
-
+    filter: invert(1);
+  
 }
 
 .card-3d {
@@ -118,3 +119,56 @@ z-index: 9999;
   object-fit: cover; 
 }
 
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+.title{
+  font-size: 6rem;
+  margin: 30vh 0 30vh;
+}
+p{
+  font-size: 2rem;
+  padding: 15vh 20vw 15vh 20vw ;
+}
+
+.home img {
+    width: 4vw;   
+    height: auto;
+}
+
+.card-3d {
+  width: 30vw;
+  height: 40vw;
+  
+}
+.faccia {
+  font-size: 4rem;
+}
+
+.retro{
+
+  font-size: 3rem;
+  gap: 15px;
+    
+}
+.retro img{
+
+  width: 500px;
+  height: 500px;
+ 
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
