@@ -134,12 +134,12 @@ body{
 .città{
    text-align: center;
    font-size: 0.6rem;
-   color: rgb(255, 206, 0)
+   color: #ffce00
    
 }
 .tittle{
    font-size: 3rem;
-   color: rgb(255, 255, 255);
+   color: #ffffff;
    font-family: "Bricolage Grotesque", sans-serif;
    font-weight: 900;
 }
@@ -148,7 +148,7 @@ body{
     text-align: center;
     font-size: 0.75rem;
     padding-top: 10px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;

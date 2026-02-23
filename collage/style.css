@@ -1,5 +1,4 @@
 
-
 @import url('use.typekit.net');
 html{ 
     font-size: 16px; /* 16px = 1rem*/; 
@@ -39,7 +38,7 @@ body{
 
 .tittle:hover .tittle__inner {
   animation: poolMove 3s ease-in-out infinite;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-shadow:
     0 0 6px  #1f4bff,
     0 0 12px #1f4bffcc,
