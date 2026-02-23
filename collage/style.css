@@ -188,8 +188,17 @@ No media query for `xs` since this is the default in Bootstrap */
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
     html {
-        font-size: 24px;
+    font-size: 24px;
     }
     body{
     background-image:url(images/sfondo.jpg);
@@ -211,12 +220,13 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 .time{
   color: #00f;
-    font-size: 6rem;
+    font-size: 9rem;
     font-family: "pf-pixelscript", sans-serif;
     text-align: right;
     font-weight: 200;
-    padding-top: 45vh;
+    padding-top: 35vh;
     padding-right: 5vh;
+
     
   
 }
@@ -269,12 +279,4 @@ No media query for `xs` since this is the default in Bootstrap */
     width: 5vw;   
     height: auto;
 }
-
-}
-
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+ }
