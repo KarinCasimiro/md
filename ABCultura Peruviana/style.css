@@ -132,12 +132,6 @@ No media query for `xs` since this is the default in Bootstrap */
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-
 .title{
   font-size: 6rem;
   margin: 30vh 0 30vh;
@@ -173,4 +167,11 @@ p{
   height: 500px;
  
 }
+
 }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
